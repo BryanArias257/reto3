@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro de la persona Usuaria</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h1 id="titulo-principal">Registro de la persona Usuaria</h1>
+
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            class="input-field"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="apellido">Apellido:</label>
+          <input
+            type="text"
+            id="apellido"
+            name="apellido"
+            class="input-field"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="correo">Correo Electrónico:</label>
+          <input
+            type="email"
+            id="correo"
+            name="correo"
+            class="input-field"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="contrasena">Contraseña:</label>
+          <input
+            type="password"
+            id="contrasena"
+            name="contrasena"
+            class="input-field"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="descripcion">Breve descripción sobre ti:</label>
+          <textarea
+            id="descripcion"
+            name="descripcion"
+            class="input-field"
+            rows="4"
+          ></textarea>
+        </div>
+
+        <div class="form-group checkbox-section">
+          <p class="section-label">Intereses:</p>
+          <label class="checkbox-label">
+            <input
+              type="checkbox"
+              name="intereses"
+              value="tecnologia"
+              class="checkbox-input"
+            />
+            Tecnología
+          </label>
+          <label class="checkbox-label">
+            <input
+              type="checkbox"
+              name="intereses"
+              value="arte"
+              class="checkbox-input"
+            />
+            Arte
+          </label>
+          <label class="checkbox-label">
+            <input
+              type="checkbox"
+              name="intereses"
+              value="deporte"
+              class="checkbox-input"
+            />
+            Deporte
+          </label>
+          <label class="checkbox-label">
+            <input
+              type="checkbox"
+              name="intereses"
+              value="cine"
+              class="checkbox-input"
+            />
+            Cine
+          </label>
+          <label class="checkbox-label">
+            <input
+              type="checkbox"
+              name="intereses"
+              value="literatura"
+              class="checkbox-input"
+            />
+            Literatura
+          </label>
+        </div>
+
+        <button type="submit" id="btn-registro" class="btn-primary">
+          Registrarse
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
